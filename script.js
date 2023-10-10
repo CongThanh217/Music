@@ -689,7 +689,7 @@ $('.fa-moon').onclick = function(){
     $('.fa-moon').classList.remove('up');
     $('.play-zone').classList.add('active');
     $('.playlist').classList.add('active');
-    document.querySelector('html').style.background = 'url(/assets/img/nitg.jpg)  no-repeat';
+    document.querySelector('html').style.background = 'url(assets/img/nitg.jpg)  no-repeat';
     document.querySelector('html').style.backgroundSize = 'cover';
     document.querySelector('html').style.backgroundPosition = 'center center';
 
