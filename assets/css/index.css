@@ -1,0 +1,78 @@
+html{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+}
+.mt-0{
+    margin: 0;
+}
+.app{
+    width: 390px;
+    height: 884px;
+    padding: 0 10px;
+}
+
+.play-zone{
+    height: 442px;
+    position: fixed;
+    width: 390px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    top:0;
+}
+
+
+.play-status{
+    text-align: center;
+   padding-top: 10px;
+    font-weight: 500;
+    color: red;
+}
+.play-title{
+    text-align: center;
+}
+.play-title h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+.play-singer{
+    text-align: center;
+    font-style: italic;
+}
+.play-singer p{
+    margin: 0 0 10px 0;
+    font-size: 10px;
+}
+.play-disk{
+    height: 247.51px;
+
+    margin: 0 65px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.play-control{
+    padding: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.btn-play{
+    font-size: 34px;
+    transform: translateY(10%);
+}
