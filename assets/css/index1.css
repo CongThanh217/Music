@@ -7,7 +7,7 @@
 html{
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-    background: url(/assets/img/background.jpg) no-repeat;
+    background: url(../img/background.jpg) no-repeat;
     height: 1300px; 
 
     background-size: cover;
