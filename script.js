@@ -689,7 +689,7 @@ $('.fa-moon').onclick = function(){
     $('.fa-moon').classList.remove('up');
     $('.play-zone').classList.add('active');
     $('.playlist').classList.add('active');
-    document.querySelector('html').style.background = 'url(master/assets/img/nitg.jpg)  no-repeat';
+    document.querySelector('html').style.background = 'url(/assets/img/nitg.jpg)  no-repeat';
     document.querySelector('html').style.backgroundSize = 'cover';
     document.querySelector('html').style.backgroundPosition = 'center center';
 
@@ -704,7 +704,7 @@ $('.fa-sun').onclick = function(){
     $('.fa-moon').classList.add('up');
     $('.play-zone').classList.remove('active');
     $('.playlist').classList.remove('active');
-    document.querySelector('html').style.background = 'url(master/assets/img/background.jpg)  no-repeat';
+    document.querySelector('html').style.background = 'url(/assets/img/background.jpg)  no-repeat';
     document.querySelector('html').style.backgroundSize = 'cover';
     document.querySelector('html').style.backgroundPosition = 'center center';
     document.querySelector('html').style.height = 1300 + 'px';
