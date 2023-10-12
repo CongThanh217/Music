@@ -534,7 +534,7 @@ const app = {
             }
             else{
                 // Có shuffe thì random (không repeat)
-                let temp = Math.floor(Math.random() * (app.songs.length));
+               let temp = Math.floor(Math.random() * (app.songs.length));
                 while(app.currentIndex == temp)
                {
                 temp = Math.floor(Math.random() * (app.songs.length));
@@ -628,7 +628,7 @@ const app = {
                    }
                      app.currentIndex = temp;
                    
-                
+                   app.loadCurrentSong();
       
                    if(this.isPlaying)
                    {
@@ -699,6 +699,7 @@ $('.fa-moon').onclick = function(){
 
 
 }
+
 $('.fa-sun').onclick = function(){
 
 
