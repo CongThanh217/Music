@@ -543,10 +543,10 @@ const app = {
    
                 if(this.isPlaying)
                 {
+                audio.pause();
                  progress.value = 0; 
                 audio.currentTime = 0;
                  this.loadCurrentSong();
-            
                  audio.play();
          
                 }
