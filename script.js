@@ -699,7 +699,6 @@ $('.fa-moon').onclick = function(){
 
 
 }
-
 $('.fa-sun').onclick = function(){
 
 
