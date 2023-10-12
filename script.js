@@ -534,8 +534,12 @@ const app = {
             }
             else{
                 // Có shuffe thì random (không repeat)
-                app.currentIndex = Math.floor(Math.random() * (app.songs.length));
-                app.loadCurrentSong();
+                let temp = Math.floor(Math.random() * (app.songs.length));
+                while(app.currentIndex == temp)
+               {
+                temp = Math.floor(Math.random() * (app.songs.length));
+               }
+                 app.currentIndex = temp;
    
                 if(this.isPlaying)
                 {
@@ -624,7 +628,7 @@ const app = {
                    }
                      app.currentIndex = temp;
                    
-                   app.loadCurrentSong();
+                
       
                    if(this.isPlaying)
                    {
@@ -689,7 +693,7 @@ $('.fa-moon').onclick = function(){
     $('.fa-moon').classList.remove('up');
     $('.play-zone').classList.add('active');
     $('.playlist').classList.add('active');
-    document.querySelector('html').style.background = 'url(/assets/img/nitg.jpg)  no-repeat';
+    document.querySelector('html').style.background = 'url(./assets/img/nitg.jpg)  no-repeat';
     document.querySelector('html').style.backgroundSize = 'cover';
     document.querySelector('html').style.backgroundPosition = 'center center';
 
@@ -705,7 +709,7 @@ $('.fa-sun').onclick = function(){
     $('.fa-moon').classList.add('up');
     $('.play-zone').classList.remove('active');
     $('.playlist').classList.remove('active');
-    document.querySelector('html').style.background = 'url(/assets/img/background.jpg)  no-repeat';
+    document.querySelector('html').style.background = 'url(./assets/img/background.jpg)  no-repeat';
     document.querySelector('html').style.backgroundSize = 'cover';
     document.querySelector('html').style.backgroundPosition = 'center center';
     document.querySelector('html').style.height = 1300 + 'px';
